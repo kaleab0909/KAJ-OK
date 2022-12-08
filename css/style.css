@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #FF5E14;
+    --primary: #0E5CA9;
     --secondary: #5F656F;
     --light: #F5F5F5;
     --dark: #02245B;
@@ -12,6 +12,26 @@
     right: 30px;
     bottom: 30px;
     z-index: 99;
+}
+
+.logo-kaj {
+    border-radius: 0px 0px 20px 20px;
+    background: #ffffff;
+    padding: 20px;
+    width: 300px;
+    height: 70px;
+}
+
+.bg-btn-kaj {
+    background-color: #F26925;
+}
+
+.bg-kaj {
+    background-color: #0E5CA9;
+}
+
+.bg-pemesanan {
+    background-color: #0E5CB9;
 }
 
 h1,
@@ -158,7 +178,7 @@ h6,
 }
 
 @media (max-width: 991.98px) {
-    .navbar .navbar-nav .nav-link  {
+    .navbar .navbar-nav .nav-link {
         margin-right: 0;
         padding: 10px 0;
     }
@@ -219,7 +239,7 @@ h6,
         position: relative;
         min-height: 450px;
     }
-    
+
     #header-carousel .carousel-item img {
         position: absolute;
         width: 100%;
@@ -505,7 +525,7 @@ h6,
 }
 
 .project-item:hover .project-title,
-.project-carousel .owl-item.center .project-title  {
+.project-carousel .owl-item.center .project-title {
     bottom: -60px;
 }
 
@@ -597,6 +617,7 @@ h6,
 }
 
 @media (min-width: 768px) {
+
     .testimonial-carousel::before,
     .testimonial-carousel::after {
         width: 200px;
@@ -604,6 +625,7 @@ h6,
 }
 
 @media (min-width: 992px) {
+
     .testimonial-carousel::before,
     .testimonial-carousel::after {
         width: 300px;
